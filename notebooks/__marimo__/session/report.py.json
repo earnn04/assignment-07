@@ -1,0 +1,41 @@
+{
+  "version": "1",
+  "metadata": {
+    "marimo_version": "0.23.6",
+    "script_metadata_hash": null
+  },
+  "cells": [
+    {
+      "id": "Hbol",
+      "code_hash": "8655d979457c009d19dc625e3cca843c",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "PkSV",
+      "code_hash": "69935c0c3fbc7507826970756e7fe8dc",
+      "outputs": [],
+      "console": [
+        {
+          "type": "stream",
+          "name": "stderr",
+          "text": "\u001b[33m[W 260521 12:09:25 altair_transformer:82]\u001b(B\u001b[m Failed to convert data to arrow format, falling back to CSV: No module named 'pyarrow'\n",
+          "mimetype": "text/plain"
+        }
+      ]
+    },
+    {
+      "id": "ETZI",
+      "code_hash": null,
+      "outputs": [],
+      "console": []
+    }
+  ]
+}
