@@ -1,0 +1,15 @@
+cmd: uv run src/clean.py
+deps:
+- path: data/raw/events.csv
+  hash: md5
+  md5: 431ff8b1e99f6c5ac0a423d9e37ac2a9
+  size: 73240
+- path: src/clean.py
+  hash: md5
+  md5: 8f44ceee8a0efb728d5af492812171df
+  size: 719
+outs:
+- path: data/clean/events.csv
+  hash: md5
+  md5: 254b2ae5c82677997e7d4f1f48040a44
+  size: 65098

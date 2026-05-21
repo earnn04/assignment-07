@@ -1,0 +1,15 @@
+cmd: uv run src/transform.py
+deps:
+- path: data/clean/events.csv
+  hash: md5
+  md5: 254b2ae5c82677997e7d4f1f48040a44
+  size: 65098
+- path: src/transform.py
+  hash: md5
+  md5: fd0729f10f37b87d25e261bc70f96fe0
+  size: 472
+outs:
+- path: data/transformed/events.csv
+  hash: md5
+  md5: 5c34c38e3f1d50a8c6061bbb1dc46038
+  size: 84023

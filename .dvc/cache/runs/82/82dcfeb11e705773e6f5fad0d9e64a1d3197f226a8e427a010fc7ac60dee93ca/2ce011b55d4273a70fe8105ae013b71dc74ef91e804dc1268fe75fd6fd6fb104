@@ -1,0 +1,15 @@
+cmd: uv run src/features.py
+deps:
+- path: data/transformed/events.csv
+  hash: md5
+  md5: 5c34c38e3f1d50a8c6061bbb1dc46038
+  size: 84023
+- path: src/features.py
+  hash: md5
+  md5: 1ad43222983b140bd1ad212def8af4be
+  size: 513
+outs:
+- path: data/features/events.csv
+  hash: md5
+  md5: c0f4949990e8da78f7b05459fd4827a7
+  size: 122416
